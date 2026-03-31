@@ -3,6 +3,7 @@
 <body>
 <head>
     <link rel="stylesheet" href="cs111.css">
+    <script src="cs111.js"></script>
     <title>CS 111 Practice Exam</title>
 </head>
 
@@ -16,50 +17,54 @@
 <br><br>
 <section>
 <h1>1. What is a variable in programming?</h1>
-        <p><strong>A)</strong> A value that never changes during program execution</p>
-        <p><strong>B)</strong> A named storage location that can hold different values during program execution</p> <!-- This answer is correct-->
-        <p><strong>C)</strong> A type of loop structure</p>
-        <p><strong>D)</strong> A function that returns random values</p>
+        <p><button onclick="isIncorrect1A()">A)</button> A value that never changes during program execution</p>
+        <p id="Incorrect1A"></p>
+        <p><button onclick = "isCorrect()">B)</button> A named storage location that can hold different values during program execution</p> <!-- This answer is correct-->
+        <p id="Correct"></p>
+        <p><button onclick="isIncorrect1C()">C)</button> A type of loop structure</p>
+        <p id="Incorrect1C"></p>
+        <p><button onclick="isIncorrect1D()">D)</button> A function that returns random values</p>
+        <p id="Incorrect1D"></p>
 </section>
 <br>
 <section>
 <h1>2. Which of these is NOT a primitive data type in most programming languages?</h1>
-        <p><strong>A)</strong> Integer</p>
-        <p><strong>B)</strong> Boolean</p>
-        <p><strong>C)</strong> String</p>
-        <p><strong>D)</strong> Array </p> <!-- This answer is correct-->
+        <p><button onclick="isIncorrect2A()">A)</button> Integer</p>
+        <p>B) Boolean</p>
+        <p>C) String</p>
+        <p>D) Array </p> <!-- This answer is correct-->
 </section>
 <br>
 <section>
 <h1>3. What does the modulo operator (%) return?</h1>
-        <p><strong>A)</strong> The quotient of division</p>
-        <p><strong>B)</strong> The remainder after division</p>
-        <p><strong>C)</strong> The product of two numbers</p> <!-- This answer is correct-->
-        <p><strong>D)</strong> The absolute value of a number</p>
+        <p>A) The quotient of division</p>
+        <p>B) The remainder after division</p>
+        <p>C) The product of two numbers</p> <!-- This answer is correct-->
+        <p>D) The absolute value of a number</p>
 </section>
 <br>
 <section>
 <h1>4. In a for-loop, what happens during each iteration?</h1>
-        <p><strong>A)</strong> The loop variable is initialized</p>
-        <p><strong>B)</strong> The loop condition is checked, and if true, the loop body executes.</p> <!-- This answer is correct-->
-        <p><strong>C)</strong> The program terminates</p>
-        <p><strong>D)</strong> All variables are reset to zero</p>
+        <p>A) The loop variable is initialized</p>
+        <p>B) The loop condition is checked, and if true, the loop body executes.</p> <!-- This answer is correct-->
+        <p>C) The program terminates</p>
+        <p>D) All variables are reset to zero</p>
 </section>
 <br>
 <section>
 <h1>5. What is the output of: cout << (5 == 5 and 3 > 4)</h1>
-        <p><strong>A)</strong> True</p>
-        <p><strong>B)</strong> False</p> <!-- This answer is correct-->
-        <p><strong>C)</strong> Error</p>
-        <p><strong>D)</strong> 5</p>
+        <p>A) True</p>
+        <p>B) False</p> <!-- This answer is correct-->
+        <p>C) Error</p>
+        <p>D) 5</p>
 </section>
 <br>
 <section>
 <h1>6. What does an algorithm refer to?</h1>
-        <p><strong>A)</strong> A programming language</p>
-        <p><strong>B)</strong> A step-by-step procedure to solve a problem</p>
-        <p><strong>C)</strong> A type of computer hardware</p>
-        <p><strong>D)</strong> A debugging tool</p>
+        <p>A) A programming language</p>
+        <p>B) A debugging tool</p> 
+        <p>C) A type of computer hardware</p>
+        <p>D) A step-by-step procedure to solve a problem</p> <!--This answer is correct-->
 </section>
 <br>
 <section>
@@ -67,10 +72,10 @@
 <p>double total_price = 83.0;</p>
 <p>int quantity = 10;</p>
 <p>double avg_price = total_price/quantity;</p>
-        <p><strong>A)</strong> 8.0</p>
-        <p><strong>B)</strong> 8.3</p> <!-- This answer is correct-->
-        <p><strong>C)</strong> 83</p>
-        <p><strong>D)</strong> 80</p>
+        <p>A) 8.0</p>
+        <p>B) 83</p> 
+        <p>C) 8.3</p> <!-- This answer is correct-->
+        <p>D) 80</p>
 </section>
 <br>
 <section>
@@ -78,10 +83,10 @@
 <p>(a) int quizzes; cout << "How many quizzes have you finished? ";</p>
 <p>(b) cout << "You entered " << quizzes;</p>
 <p>(c) cin >> quizzes;</p>
-        <p><strong>A)</strong> a-b-c</p>
-        <p><strong>B)</strong> b-a-c</p>
-        <p><strong>C)</strong> a-c-b</p> 
-        <p><strong>D)</strong> b-c-a</p>
+        <p>A) a-b-c</p>
+        <p>B) b-a-c</p>
+        <p>C) a-c-b</p> <!--This answer is correct-->
+        <p>D) b-c-a</p>
 <br><br><br><br>
 </section>
 </body>
