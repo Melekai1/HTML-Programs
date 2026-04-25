@@ -41,5 +41,9 @@ directions {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-
-
+button {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    
+}

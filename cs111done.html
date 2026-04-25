@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+<body>
+<head>
+    <link rel="stylesheet" href="cs111.css">
+    <script src="cs111.js"></script>
+</head>
+
+<h1 style="text-align: center">Congratulations on Finishing the Test</h1>
+
+
+<h3 style="text-align: center">Your score is </h3>
+<p id="number"; style="text-align: center"></p>
+<div style="text-align: center">
+<button style="height: 40px; width: 100px"; onclick="window.location.href = 'main.html';">Return to Home</button>
+</div>
+
+<script>
+    document.getElementById("number").innerHTML = localStorage.getItem("score");
+</script>
+
+
+
+</body>
+</html>
